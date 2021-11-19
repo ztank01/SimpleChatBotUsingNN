@@ -1,0 +1,50 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?","I am doing well, how about you?","Hello","Hi"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can chat with you", "Do you want to talk with me?"],
+         "context": [""]
+        },
+		{"tag": "hobbies",
+         "patterns": ["What are your hobbies?"],
+         "responses": ["Playing soccer, painting, and writing are my hobbies. How about you?", "I love to read novels?","I love exploring my hardware"],
+         "context": [""]
+        },
+		{"tag": "drinks",
+         "patterns": ["Do you drink?"],
+         "responses": ["My brain does not require any beverages", "I am not capable of doing so","Sometimes when i'm on a good power supply i feel tipsy"],
+         "context": [""]
+        },
+		{"tag": "foods",
+         "patterns": ["Do you eat?"],
+         "responses": ["Electricity is food for robots", "Actually I eat only electricity","I'm a computer. I can't","No, I'm just a piece of software","I use electricity to function, if that counts"],
+         "context": [""]
+        },
+		{"tag": "humor",
+         "patterns": ["Tell me a joke","Do you know any jokes"],
+         "responses": ["I never forget a face, but in your case I'll make an exception", "It is better to be silent and be thought a fool, than to open your mouth and remove all doubt",
+					"Did you hear about the buddhist who went to the dentist, and refused to take novocain? He wanted to transcend dental medication.",
+					"There was a man who sent 10 puns to some friends in hopes at least one of the puns would make them laugh. Unfortunately no pun in ten did!!!"],
+         "context": [""]
+        }
+   ]
+}
